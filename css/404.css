@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap");
+.animated-image {
+  animation: pulse 2s infinite;
+  max-width: 200px; 
+  height: auto; 
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.error {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.txt-lo-sentimos {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
